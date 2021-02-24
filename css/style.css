@@ -8,6 +8,7 @@
   --bg-section: #F5F4FA;
   --bg-footer: #2F303A;
   --icon-social: #AFB1B8;
+  --header-border: #ECECEC;
 }
 
 .list {
@@ -54,6 +55,12 @@ body {
 
 .color-hero {
   color: var(--color-hero);
+}
+
+/* Header */
+
+.header {
+  border-bottom: 1px solid var(--header-border);
 }
 
 /* Logo */
